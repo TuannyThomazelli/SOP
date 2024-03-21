@@ -1,0 +1,50 @@
+dir
+doskey / history
+doskey /history
+doskey /history >> Aluno.txt
+dir
+del Aluno.txt
+dir
+cd ..
+doskey /history
+ren \y Atividade01 Trabalho
+dir
+cd Atividade01
+ren \y Atividade01 Trabalho
+cd ..
+ren \Y Atividade01 Trabalho
+dir
+ren Atividade01 Trabalho
+dir
+md Documentos
+dir
+cd Documentos
+echo teste1 >> Projetos 
+dir
+echo teste2 >> Pessoais
+dir
+cd ..
+cd Documentos 
+del pessoais
+del projetos
+dir
+cd ..
+cd Documentos
+md Projetos
+md Pessoais
+dir
+cd ..
+move Trabalho Documentos
+dir
+move backup Documentos
+dir
+cd Documentos
+dir
+ren Pessoais Lazer
+dir
+cd Lazer
+copy con Viagens.txt 
+Dinamarca Italia Espanha Chile Japao 
+cd ..
+tree /F
+doskey /history >> Tuanny.txt
